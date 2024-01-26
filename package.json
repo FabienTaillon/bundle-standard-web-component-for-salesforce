@@ -1,0 +1,21 @@
+{
+  "name": "qr-code",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-lwc-module": "rollup --config rollup.config.lwc-module.js",
+    "build-static-resource": "rollup --config rollup.config.static-resource.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.9.4"
+  },
+  "dependencies": {
+    "@shoelace-style/shoelace": "^2.13.1"
+  }
+}
